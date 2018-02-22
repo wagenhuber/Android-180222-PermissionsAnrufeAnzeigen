@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android-180208-Permissions-Anrufe-Anzeigen</string>
+    <!-- Variable / Platzhalter mit $1 für Objekt $d für typ zahl (dezimal)-->
+    <string name="template">Sie haben %1$d verpasste Anrufe</string>
+    <string name="explain1">Bitte gewähren Sie der App die Berechtigung, weil ...</string>
+    <string name="explain2">Die Berechtigung wurde verweigert</string>
+    <string name="explain3">Verstanden</string>
+</resources>
