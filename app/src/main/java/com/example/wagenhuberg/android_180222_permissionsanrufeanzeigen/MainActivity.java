@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+        
+        //View.GONE This view is invisible, and it doesn't take any space for layout purposes.
+        //View.INVISIBLE This view is invisible, but it still takes up space for layout purposes.
         button.setVisibility(View.GONE);
         if (checkSelfPermission(Manifest.permission.READ_CALL_LOG) != PackageManager.PERMISSION_GRANTED) {
             //App hat nicht die geforderte Permission
